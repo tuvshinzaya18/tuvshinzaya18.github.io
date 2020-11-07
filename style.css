@@ -82,8 +82,8 @@ main div.clicks button {
 main div.clicks button.downloadCV {
 
 }
-main div.clicks :hover{
-    background-color: #ade8f4;
+main div.clicks button:hover{
+    box-shadow: #00b4d8 0 0 1em;
 }
 main div.clicks button div{
     /* background-color: blue; */
