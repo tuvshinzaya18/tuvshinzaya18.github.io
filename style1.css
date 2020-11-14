@@ -13,9 +13,8 @@ main {
 div.nav {
     min-width: 13em;
     width: 15em;  
-    background-color: #ade8f4; 
     padding-top: 4em;
-    height: 100vh;
+    height: 100vh; 
     overflow: hidden;
 }
 div.nav a {
@@ -28,8 +27,18 @@ div.nav a {
     /* background-color: red; */
     margin: 1em 0 1em 0;
 }
-div.nav a:hover {
-    background-color: #90e0ef;
+
+div.nav a img{
+    border-radius: 50%;
+    width: 0.7em;
+    height: 0.7em;
+    /* padding-right: 0.3em; */
+    /* padding-bottom: 0.05em; */
+}
+
+div.nav a:hover img{
+    box-shadow: #03045e 0 0 0.7em;
+
 }
 
 main div.main {

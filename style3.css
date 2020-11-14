@@ -18,6 +18,7 @@ div.main2 div.quote {
     padding-top: 3em;
 }
 div.main2 div.quote div.name{
+    padding: 0.2em 0.2em 0.2em 25em;
     font-size: 1.3em;
     color: #023e8a;
 }
