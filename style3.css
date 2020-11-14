@@ -1,0 +1,27 @@
+div.main2 {
+    margin-top: 8%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2em;
+    /* background-color: red; */
+}
+div.main2 div.head{
+    margin-left:auto;
+    margin-right: auto;
+    font-size: 3em;
+    color:#03045e;
+}
+div.main2 div.quote {
+    margin-left:30%;
+    /* margin-right: auto; */
+    padding-top: 3em;
+}
+div.main2 div.quote div.name{
+    font-size: 1.3em;
+    color: #023e8a;
+}
+div.main2 div.quote div.text{
+    font-size: 2em;
+    color: #0077b6;
+}

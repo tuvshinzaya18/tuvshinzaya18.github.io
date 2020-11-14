@@ -1,0 +1,42 @@
+
+div.main1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+    flex-grow: 1;
+}
+div.main1 div.top {
+    padding: 0.5em 0 0.5em 0;
+    font-size: 2.5em;
+    text-align: center;
+    color: #03045e;
+    /* background-color: red; */
+}
+div.main1 div.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* background-color: blue; */
+}
+div.main1 div.projects div.proj {
+    padding: 2em 2em 2em 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div.main1 div.projects div.proj img {
+    box-shadow: #48cae4 0 0 1em;
+    width: 15em;
+    height: 15em;
+    border-radius: 50%;
+    margin-bottom: 1em;
+}
+div.main1 div.projects div.proj div {
+    font-size: 1.5em;
+    color: #0077b6;
+}
+div.main1 div.projects div.proj a {
+    text-decoration: none;
+    color: #03045e;
+}
