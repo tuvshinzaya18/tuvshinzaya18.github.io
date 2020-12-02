@@ -95,7 +95,11 @@ main div.main div.about {
     padding-left: 4em;
     width:25em;
     margin:auto;
-    text-align: left;
+    text-align: justify;
     font-size: 1.2em;
+}
+main div.main div.about p {
+    text-indent: 3em;
+    text-align:justify;
 }
 
