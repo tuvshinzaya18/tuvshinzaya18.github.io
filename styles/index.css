@@ -1,0 +1,54 @@
+#profile {
+    border:0.1em solid #ade8f4;
+    border-radius: 50%;
+    width: 15em;
+    height: 15em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: #48cae4 0 0 1em ;
+}
+
+#name {
+    padding: 0.5em;
+    font-size: 2em;
+    color: #03045e;
+}
+
+main div.main div {
+    text-align: center;
+}
+main div.main div.contact {
+    font-size: 1em;
+    margin:auto;
+    margin-bottom: 2em;
+}
+main div.main div.contact div{
+    width:25em;
+    margin: auto;
+}
+main div.main div.contact div a {
+    color: #023e8a;
+    text-decoration: none;
+    padding: 0.2em 0.2em 0.2em 0.2em; 
+    display: block;
+}
+main div.main div.contact div a:hover {
+    color: #48cae4;
+}
+main div.main div.contact div img{
+    align-content: left;
+    height:0.8em;
+    width:0.8em;
+}
+main div.main div.main_text {
+    padding-left: 4em;
+    width:25em;
+    margin:auto;
+    text-align: justify;
+    font-size: 1.2em;
+}
+main div.main div.main_text p {
+    text-indent: 3em;
+    text-align:justify;
+}

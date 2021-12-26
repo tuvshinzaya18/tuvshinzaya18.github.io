@@ -24,7 +24,6 @@ div.nav a {
     font-size: 1.5em;
     color: #0077b6;
     display: block;
-    /* background-color: red; */
     margin: 1em 0 1em 0;
 }
 
@@ -32,8 +31,6 @@ div.nav a img{
     border-radius: 50%;
     width: 0.7em;
     height: 0.7em;
-    /* padding-right: 0.3em; */
-    /* padding-bottom: 0.05em; */
 }
 
 div.nav a:hover img{
@@ -47,5 +44,4 @@ main div.main {
     display: flexbox;
     flex-direction: column;
     justify-content: center;
-    /* background-color: red; */
 }
