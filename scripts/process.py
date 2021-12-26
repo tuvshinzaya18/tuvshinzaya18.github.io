@@ -11,5 +11,5 @@ with open("result.html","w") as file:
 for name in pages:
     html:str = insertToTextFile("insert","../template/master.html","../template/"+name+".html")
     html:str = insertToTextString("style",html,"<link rel=\"stylesheet\" type=\"text/css\" href=\"../styles/"+name+".css\">")
-    with open("../output/"+name+".html","w") as file:
+    with open("../docs/"+name+".html","w") as file:
         file.write(html)
